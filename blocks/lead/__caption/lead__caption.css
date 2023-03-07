@@ -5,5 +5,18 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
 }
