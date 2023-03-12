@@ -10,7 +10,7 @@
 <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="лого Россия">
     <ul class="header__lang-links">
-        <li><a class="header__lang-link_active header__lang-link link-fade" href="#">Ru</a></li>
+        <li><a class="header__lang-link link-fade header__lang-link_active" href="#">Ru</a></li>
         <li><a class="header__lang-link link-fade" href="#">En</a></li>
     </ul>
 </header>
@@ -40,17 +40,19 @@
             по родной стране. Мы выбрали
             и описали некоторые интересные места, достойные вашего отпуска.
         </p>
+
         <ul class="intro__list">
-            <li><strong>Часовых поясов</strong> 11</li>
-            <li><strong>Объектов природного наследия ЮНЕСКО</strong> 12</li>
-            <li><strong>Объектов культурного наследия ЮНЕСКО</strong> 16</li>
-            <li><strong>Природных заповедников</strong> 105</li>
-            <li><strong>Аэропортов</strong> 241</li>
+            <li>Часовых поясов <span class="intro__list_regular">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_regular">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_regular">16</span></li>
+            <li>Природных заповедников <span class="intro__list_regular">105</span></li>
+            <li>Аэропортов <span class="intro__list_regular">241</span></li>
         </ul>
+
     </section>
     <section class="photo-grid">
-        <img src="./images/photo-grid-train.jpg" alt="" class="photo-grid__item">
-        <img src="./images/photo-grid-atharva-tulsi.jpg" alt="" class="photo-grid__item">
+        <img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__item">
+        <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Атхарва-тулси" class="photo-grid__item">
         <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
         <img src="./images/photo-grid-sochi.jpg" alt="Сочи" class="photo-grid__item">
         <img src="./images/photo-grid-arisa.jpg" alt="Лёд" class="photo-grid__item">
@@ -92,7 +94,8 @@
             <img src="./images/place-kolsky.jpg" class="place__image" alt="Кольский">
             <div class="place__website">
                 <p class="place__url-heading">url</p>
-                <a class="place__link link-fade" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+                <a class="place__link link-fade"
+                   href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
                     Geographic</a>
             </div>
             <div class="place__text">
@@ -188,13 +191,13 @@
     </section>
 </main>
 <footer class="footer">
-    <div class="footer__links">
+    <nav class="footer__links">
         <a href="https://yandex.ru/maps" class="footer__link link-fade">Карты</a>
         <a href="https://yandex.ru/pogoda" class="footer__link link-fade">Погода</a>
         <a href="https://rasp.yandex.ru" class="footer__link link-fade">Расписание</a>
         <a href="https://calendar.yandex.ru" class="footer__link link-fade">Календарь</a>
         <a href="https://travel.yandex.ru" class="footer__link link-fade">Путешествия</a>
-    </div>
+    </nav>
     <p class="footer__copyright">&copy; 2023. Игорь Михайлов</p>
 </footer>
 </body>
