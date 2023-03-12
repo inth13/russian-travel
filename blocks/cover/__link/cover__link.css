@@ -7,6 +7,8 @@
     text-decoration: none;
     transition: background-color 0.1s;
     z-index: 2;
+    align-content: center;
+    justify-content: center;
 }
 
 .cover__link:hover {
