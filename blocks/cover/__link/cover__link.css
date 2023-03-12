@@ -6,9 +6,8 @@
     background-color: rgba(42, 44, 47, 0.3);
     text-decoration: none;
     transition: background-color 0.1s;
-    z-index: 2;
-    align-content: center;
     justify-content: center;
+    min-height: inherit;
 }
 
 .cover__link:hover {
