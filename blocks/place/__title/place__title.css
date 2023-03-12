@@ -1,6 +1,6 @@
 .place__title {
     grid-area: title;
-    color: red;
+    /*color: red;*/
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
