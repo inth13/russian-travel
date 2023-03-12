@@ -1,5 +1,4 @@
 
-
 .lead__title {
     margin: 0;
     font-size: 96px;
@@ -7,22 +6,34 @@
     text-align: center;
     padding: 0;
     line-height: 100px;
+    width: 720px;
 }
+/*@media (max-width: 768px) {*/
+/*    .lead__title {*/
+/*        margin-left: 24px;*/
+/*        margin-right: 24px;*/
+/*        !*значения подобраны эмпирически*!*/
+/*        font-size: 12vw;*/
+/*        line-height: 100%;*/
+/*    }*/
+/*}*/
+
 @media (max-width: 768px) {
     .lead__title {
         margin-left: 24px;
         margin-right: 24px;
-        /*значения подобраны эмпирически*/
-        font-size: 12vw;
-        line-height: 100%;
+        font-size: 96px;
+        line-height: 100px;
+        font-weight: 900;
     }
 }
-
 @media (max-width: 320px) {
     .lead__title {
         margin-left: 16px;
         margin-right: 16px;
         font-size: 40px;
         line-height: 44px;
+        font-style: normal;
+        width: 288px;
     }
 }

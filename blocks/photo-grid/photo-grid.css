@@ -36,6 +36,7 @@
         grid-template-columns: 288px;
         grid-template-rows: 216px;
         gap: 12px;
-        padding-top: 64px;
+        padding-top: 65px;
+        padding-left: 16px;
     }
 }
