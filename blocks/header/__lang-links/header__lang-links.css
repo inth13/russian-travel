@@ -1,16 +1,14 @@
 .header__lang-links {
+    display: flex;
+    gap: 18px;
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     margin: 0;
     padding: 0;
-    align-items: end;
-    gap: 18px;
+    align-items: flex-end;
 }
 
-@media (max-width: 320px) {
-    .header__lang-links{
-        font-size: 18px;
-        line-height: 20px;
+@media (max-width: 767px) {
+    .header__lang-links {
+        margin-right: 16px;
     }
 }
