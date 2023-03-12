@@ -33,3 +33,8 @@
 @import "../blocks/place/__text/place__text.css";
 
 @import "../blocks/places/places.css";
+
+@import "../blocks/cover/cover.css";
+@import "../blocks/cover/__link/cover__link.css";
+@import "../blocks/cover/__title/cover__title.css";
+@import "../blocks/cover/__subtitle/cover__subtitle.css";
